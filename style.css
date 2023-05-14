@@ -59,6 +59,17 @@ body {
     top: 12px;
     right: 27px;
 }
+#header .service_area .link_set {
+    float: left;
+    font-size: 11px;
+    color: #a8a8a8;
+}
+#header .service_area .sa_bar {
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 3px 7px;
+}
 #header .logo_default{
     width: 222px;
     height: 52px;
@@ -144,6 +155,37 @@ h1 {
     background-repeat: no-repeat;
     vertical-align: top;
 }
+#header .serach_area .btn_keyboard {
+    position: absolute;
+    top: 0;
+    right: 84px;
+    width: 36px;
+    z-index: 400;
+}
+#ke_kbd_btn {
+    position: absolute;
+    top: 0;
+    right: 84px;
+    bottom: 0;
+    width: 36px;
+    z-index: 400;
+}
+#ke_kbd_btn .ico_keyboard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -10px;
+}
+#ke_kbd_btn .ico_keyboard {
+    background-image: url(https://s.pstatic.net/static/www/img/uit/sp_dark_main_41d5bf.png);
+    background-size: 209px 177px;
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background-position: -43px -156px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
 #gnb {
     position: relative;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
@@ -189,3 +231,15 @@ a {
 #gnb .list_nav.NM_FAVORITE_LIST {
     margin-left: 12px;
 }
+#gnb .more_area {
+    float: left;
+    position: relative;
+}
+#gnb .btn_more {
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: right;
+}
+/* margin collapsing : display: inline-block, width: 100% */
